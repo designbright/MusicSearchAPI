@@ -1,0 +1,95 @@
+html{
+  width: auto;
+  background: linear-gradient(#FE651A, #FF41DE, #6F38E8, #67D6FF);
+  background-repeat: no-repeat;
+}
+
+body{
+  font-family: 'Raleway', sans-serif;
+  background: linear-gradient(#FE651A, #FF41DE, #6F38E8, #67D6FF);
+  background-repeat: no-repeat;
+  height: 100%;
+  width: auto;
+}
+
+header{
+  display: flex;
+}
+
+img{
+  border-radius: 150px;
+  height: 200px;
+  width: 200px;
+  margin-right: 20%;
+  margin-bottom: 20px;
+}
+
+h1{
+  text-align: center;
+  color: white;
+  font-size: 65px;
+}
+
+.searchBar{
+  margin-left: 25%;
+  margin-bottom: 25px;
+}
+
+.searchBar input{
+  width: 50%;
+  height: 50px;
+  border-radius: 50px;
+  font-size: 20px;
+  outline: none
+}
+
+.searchBar button{
+  width: 150px;
+  height: 50px;
+  border-radius: 50px;
+  background: white;
+  font-size: 15px;
+  outline: none;
+}
+
+.musicPlayer audio{
+  border-radius: 80px;
+  width: 95%;
+  height: 50px;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.musicPlayer p{
+  color: white;
+  font-size: 20px;
+  margin-left: 2%;
+}
+
+#searchResults{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 25px;
+}
+
+.result{
+  width: 12%;
+  border: white 3px solid;
+  border-radius: 25px;
+  margin: 1% 2%;
+  padding: 25px;
+  text-align: center;
+}
+
+h4{
+  color: white;
+  font-size: 25px;
+  font-style: italic;
+}
+
+h5{
+  font-size: 20px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bolder;
+}
